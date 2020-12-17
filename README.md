@@ -1,6 +1,8 @@
 # Kart-Neural-Network
 Neural Network and Genetic Algorithm to learn the *computer* to drive.
 
+![Alt Text](https://media.giphy.com/media/dsBJUoTei6EE7ZoY3q/giphy.gif)
+
 ## Information
 This is a in-progress project.
 
