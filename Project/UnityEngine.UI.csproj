@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2A19FBD9-20F6-440E-AA15-84B6667D31F9}</ProjectGuid>
+    <ProjectGuid>{A30111FA-DFBE-C300-CA8D-566E6AF9622A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>
@@ -343,25 +343,25 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.barracuda@1.0.1/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.barracuda@1.0.1/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.burst@1.2.3/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.burst@1.2.3/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

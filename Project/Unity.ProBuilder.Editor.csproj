@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{809D1FF6-995D-A1B4-CBED-693297134011}</ProjectGuid>
+    <ProjectGuid>{592B2927-21FC-1156-8788-8AC8330B654D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder.Editor</AssemblyName>
@@ -421,28 +421,28 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.barracuda@1.0.1/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.barracuda@1.0.1/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.burst@1.2.3/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.burst@1.2.3/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ml-agents@1.0.3/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/UnityProjects/Neural Network/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/OlavA/Documents/GitClones/Kart-Neural-Network/Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -801,39 +801,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{E364BDEB-C445-E1EC-B31F-EBBCD21A4FB8}</Project>
+      <Project>{38AA357E-D47D-EAAB-FD7A-D0E03FC96C99}</Project>
       <Name>Unity.ProBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{B3F0E24F-8788-261A-7472-E65EF91E25F6}</Project>
+      <Project>{57B48808-CC36-C807-F862-CBD4EBFE0A26}</Project>
       <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Stl.csproj">
-      <Project>{5D8A5BDA-065E-9226-9B65-AF6E89894919}</Project>
+      <Project>{290CB89E-313D-1C77-45D2-ACC2F3CDA51E}</Project>
       <Name>Unity.ProBuilder.Stl</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{AAF16DC3-0655-5052-5F43-4B861B7052F7}</Project>
+      <Project>{1D0DA951-EE1F-0E52-EEF0-AEB01D605B40}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Csg.csproj">
-      <Project>{C5A32105-6BB8-12D1-078D-E7C157CB82A7}</Project>
+      <Project>{BF2D1556-7161-1E94-2EA1-07FBB2536B19}</Project>
       <Name>Unity.ProBuilder.Csg</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{67BE98EB-A354-3B4C-058A-A181396BCBFF}</Project>
+      <Project>{6B83E877-1207-1E33-ACA6-B2A122B5A702}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{2A19FBD9-20F6-440E-AA15-84B6667D31F9}</Project>
+      <Project>{A30111FA-DFBE-C300-CA8D-566E6AF9622A}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{C16E29DA-D5E1-817A-9549-EAEB70050728}</Project>
+      <Project>{8DE9301D-3972-772F-2756-2C13A7B15278}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{2CE1D3F8-6795-6CC1-AED5-C729583C9224}</Project>
+      <Project>{B362D4E1-C932-620B-9A56-8F0D9B6A7363}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

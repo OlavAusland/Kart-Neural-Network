@@ -42,7 +42,7 @@ public class Manager : MonoBehaviour
         for (int i = 0; i < populationSize; i++)
         {
             NeuralNetwork net = new NeuralNetwork(layers);
-            if (LoadBest) { net.Load("Assets/NeuralModels/Pre-trained.txt"); }
+            if (LoadBest) { net.Load("Assets/NeuralModels/General.txt"); }
             networks.Add(net);
         }
 

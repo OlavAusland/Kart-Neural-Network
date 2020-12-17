@@ -251,7 +251,7 @@ MonoBehaviour:
   fitness: 0
   collided: 0
   training: 1
-  neuralModelPath: Assets/NeuralModels/Pre-trained.txt
+  neuralModelPath: Assets/NeuralModels/General.txt
 --- !u!1 &749988257258802065
 GameObject:
   m_ObjectHideFlags: 0
