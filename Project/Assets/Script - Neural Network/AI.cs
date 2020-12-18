@@ -50,9 +50,9 @@ public class AI : MonoBehaviour
     // UPDATE NETWORK //
     private void UpdateNetwork()
     {
-        if (!training) { network = new NeuralNetwork(new int[3] { 8, 3, 2 }); network.Load(neuralModelPath); }
+        if (!training) { network = new NeuralNetwork(new int[3] { 8, 3, 3 }); network.Load(neuralModelPath); }
         float[] output = network.FeedForward(input);
-        kart.velocity = new Vector2(output[0] * rotation, output[1] * speed);
+        kart.velocity = new Vector2(output[0] * rotation, output[1] * speed * (output[2] * -1));
     }
 
     // CHANGE FITNESS //

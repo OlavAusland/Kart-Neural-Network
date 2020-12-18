@@ -384,10 +384,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 5994576073966384568, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: layers.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: timeframe
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: populationSize
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: LoadBest
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: mutationChance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053289917041954461, guid: 6fd8ada53d07d51479ad808b4ecc8f30,
+        type: 3}
+      propertyPath: mutationStrength
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fd8ada53d07d51479ad808b4ecc8f30, type: 3}

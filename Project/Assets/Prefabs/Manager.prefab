@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125117211948879739}
   - component: {fileID: 6053289917041954461}
+  - component: {fileID: 779913543}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -38,7 +39,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5994576073966384568}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9078d184a4a1ee2459d130d49c534b6a, type: 3}
   m_Name: 
@@ -47,8 +48,33 @@ MonoBehaviour:
   timeframe: 60
   populationSize: 128
   prefab: {fileID: 749988257113489806, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5, type: 3}
-  layers: 050000000300000002000000
-  MutationChance: 0.01
-  MutationStrength: 0.5
-  Gamespeed: 2
+  activation: 0
+  layers: 080000000300000002000000
+  mutationChance: 0.05
+  mutationStrength: 0.5
+  timeMultiplier: 1
   LoadBest: 0
+--- !u!114 &779913543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5994576073966384568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537468c9aa6b00d4dbcd447d309c6a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieces:
+  - {fileID: 1506008966518896151, guid: 41108c0a4a416ff4bac0f9cc2d131425, type: 3}
+  - {fileID: 6618234104591953523, guid: 547606a2dc68bd14c8c47d11eec79c8f, type: 3}
+  - {fileID: 3367562712560560423, guid: 600a4d16c058c6c4e8dd9e21b0c16355, type: 3}
+  - {fileID: 1376513976617042951, guid: 0e8527541c760b94bb8573f4a2076d4d, type: 3}
+  - {fileID: 495714356456466334, guid: 20b69848868fdc54fa7dbcd0676980b5, type: 3}
+  - {fileID: 8649025973069511841, guid: f388009e87c3baf4ebadf3a9913aa25b, type: 3}
+  - {fileID: 2139329671377669255, guid: b661cc8e95e646e42a2b047becc361fd, type: 3}
+  - {fileID: 2049727107224598593, guid: 255fe95e06ed9be4c821e170e95b1dcf, type: 3}
+  - {fileID: 2489788676735954257, guid: d0f31f44b030eb64a8dab8512585c66d, type: 3}
+  - {fileID: 3223915566595975933, guid: e66c736824642414b8a0c831c97c0056, type: 3}
+  - {fileID: 7872992626441750390, guid: 0a4c5dc8d7646264689fb577cb854277, type: 3}

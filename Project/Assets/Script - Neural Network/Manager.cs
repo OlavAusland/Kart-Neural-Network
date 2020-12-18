@@ -32,8 +32,7 @@ public class Manager : MonoBehaviour
 
         if (populationSize % 2 != 0) { populationSize = 50; }
 
-        if (LoadBest) { InvokeRepeating("InitializeNetworks", 0.1f, timeframe);}
-        else { InitializeNetworks(); InvokeRepeating("InstantiateAI", 0.1f, timeframe); }
+        InitializeNetworks();
     }
 
     // INITIALIZE NETWORKS //
@@ -46,7 +45,7 @@ public class Manager : MonoBehaviour
             networks.Add(net);
         }
 
-        if (LoadBest) { InstantiateAI(); }
+        InvokeRepeating("InstantiateAI", 0.1f, timeframe);
     }
 
     public void InstantiateAI()
