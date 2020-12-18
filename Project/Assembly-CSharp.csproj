@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script - Neural Network\AI.cs" />
+    <Compile Include="Assets\Script - Neural Network\DriverAI.cs" />
     <Compile Include="Assets\Script - Neural Network\Manager.cs" />
     <Compile Include="Assets\Script - Neural Network\NeuralNetwork.cs" />
     <Compile Include="Assets\Scripts\ArcadeKart.cs" />

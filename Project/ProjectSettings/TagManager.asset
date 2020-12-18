@@ -8,6 +8,7 @@ TagManager:
   - CheckPoint
   - Track
   - Fence
+  - Parking
   layers:
   - Default
   - TransparentFX
@@ -17,15 +18,15 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - Obstacle
   - Ground
   - Environment
   - Track
-  - CrashObject
+  - 
   - Kart
-  - TrainingCheckpoints
+  - 
   - CheckPoint
-  - Fence
+  - 
   - 
   - 
   - 

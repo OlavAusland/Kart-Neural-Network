@@ -5,7 +5,7 @@ using KartGame.KartSystems;
 
 public class AI : MonoBehaviour
 {
-    public ArcadeKart kart;
+    ArcadeKart kart { get { return GetComponent<ArcadeKart>(); } }
     public float speed;
     public float rotation;
     public LayerMask raycastMask;
@@ -71,11 +71,11 @@ public class AI : MonoBehaviour
     public void OnDrawGizmosSelected()
     {
         if (collided) { return; }
-        Gizmos.color = Color.green;
         for (int i = 0; i < 8; i++)
         {
             Vector3 newVector = Quaternion.AngleAxis(i * 45 - 90, transform.up) * transform.forward;
             Ray visualizeRay = new Ray(transform.position, newVector);
+            Gizmos.color = Color.Lerp(Color.green, Color.red, input[i]);
             Gizmos.DrawRay(visualizeRay.origin, visualizeRay.direction * visualizeRays[i]);
         }
     }

@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 749988257113489807}
   - component: {fileID: 4391869918751338292}
   - component: {fileID: 4391869920700967802}
-  - component: {fileID: 2862993964476659064}
+  - component: {fileID: -5481523259885317832}
   m_Layer: 13
   m_Name: AI
   m_TagString: Player
@@ -230,7 +230,7 @@ MonoBehaviour:
     wheelTransform: {fileID: 749988257538174884}
     axelAxis: {x: 1, y: 0, z: 0}
     steeringAxis: {x: 0, y: 0, z: 0}
---- !u!114 &2862993964476659064
+--- !u!114 &-5481523259885317832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,12 +242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d66be0eb20c527746b9d1f19aea4eca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kart: {fileID: 749988257113489807}
-  speed: 50
-  rotation: 12
+  speed: 10
+  rotation: 5
   raycastMask:
     serializedVersion: 2
-    m_Bits: 73527
+    m_Bits: 3895
   fitness: 0
   collided: 0
   training: 1

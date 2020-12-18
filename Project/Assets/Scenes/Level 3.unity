@@ -280,10 +280,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5481523259885317832, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
+        type: 3}
+      propertyPath: training
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 749988257113489806, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
         type: 3}
       propertyPath: m_Name
       value: AI
+      objectReference: {fileID: 0}
+    - target: {fileID: 749988257113489807, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
+        type: 3}
+      propertyPath: baseStats.TopSpeed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 749988257113489812, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
         type: 3}

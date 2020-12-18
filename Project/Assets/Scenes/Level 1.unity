@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &471402194
+--- !u!1001 &423048257
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -133,11 +133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AI
       objectReference: {fileID: 0}
-    - target: {fileID: 749988257113489806, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 749988257113489812, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -146,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 749988257113489812, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.35
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 749988257113489812, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
         type: 3}
@@ -193,35 +188,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2862993964476659064, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
-        type: 3}
-      propertyPath: test
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862993964476659064, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
-        type: 3}
-      propertyPath: collided
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862993964476659064, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
-        type: 3}
-      propertyPath: isTraining
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862993964476659064, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
-        type: 3}
-      propertyPath: roaming
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862993964476659064, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
+    - target: {fileID: 2355391852395065586, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
         type: 3}
       propertyPath: training
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862993964476659064, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5,
-        type: 3}
-      propertyPath: neuralModelPath
-      value: Assets/NeuralModels/General.txt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f50f58e0b1f9a4f8fdf41a9784aef5, type: 3}
